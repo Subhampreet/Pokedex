@@ -1,4 +1,14 @@
+<h1 align="center">⚡ Pokedex </h1>
+
+
+<b>Pokedex</b> is a small demo application based on modern Android application tech-stacks and MVVM architecture. This project is for focusing especially on the new library Hilt of implementing dependency injection. Also fetching data from the network and integrating persisted data in the database via repository pattern.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+<p align="center">
+  <img src="https://uhdwallpapers.org/uploads/cache/821469505/pokemon-detective-pikachu_600x338-mm-90.jpg" align="center">
+</p>
+
 
 ## Getting Started
 
