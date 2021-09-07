@@ -1,6 +1,7 @@
 .banner{
     position: relative;
-    background-color: rgb(24, 23, 32);
+    background: rgb(25,25,31);
+background: linear-gradient(90deg, rgba(25,25,31,1) 9%, rgba(25,34,93,1) 64%, rgba(23,28,93,1) 100%);
     padding: 50px 0px;
 }
 
@@ -11,24 +12,36 @@
 }
 
 .banner-body .left{
-    padding: 0px 50px;
+    padding: 0px 0px 0px 90px;
 }
 
 .banner-body .left-body{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
 .banner-body .left-body h2{
-    font-size: 30px;
-    color: rgb(239, 239, 243);
+    font-size: 25px;
+    letter-spacing: 0.08rem;
+    color: rgb(235, 232, 232);
     margin-bottom: 0px;
+    font-weight: 400;
 }
 
 .banner-body .left-body h1{
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 10px;
-    color: #fff;
+    /* background: linear-gradient(to right, #6414f8 0%,#05bcc9 50%, #0bd8ac 75%,  #07e1e9 100%);
+	-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+    color: #eee;
+}
+
+.banner-body .left-body h1 span{
+    /* color: rgb(238, 30, 30); */
+    background: linear-gradient(to right, #2b08ee 0%,#5a0de9 50%, #6607ff 75%,  #a102fd 100%);
+	-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .banner-body .left-body p{
@@ -36,13 +49,14 @@
     margin-bottom: 40px;
     letter-spacing: 0.07rem;
     line-height: 1.5rem;
-    font-weight: 300
+    font-weight: 300;
+    width: 90%;
 }
 
 .banner-body .left-body .button{
     width: 170px;
     font-size: 17px;
-    background-color: rgb(221, 19, 19);
+    background-color: rgb(77, 22, 228);
     color: #eee;
 }
 
@@ -50,7 +64,7 @@
 .banner-body .right img{
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    margin: 0 auto 0 auto;
+    margin: 0 50px 0 auto;
     transform-origin: bottom;
 }
 
