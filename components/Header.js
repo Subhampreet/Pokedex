@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 function Header() {
     return (
@@ -10,7 +11,9 @@ function Header() {
             <div className="nav-list">
                 <div className="nav-item active">Home</div>
                 <div className="nav-item">About</div>
-                <div className="nav-item">Pokedex</div>
+                <Link href="/pokedex">
+                    <div className="nav-item">Pokedex</div>
+                </Link>
                 <div className="nav-item">Feedback</div>
             </div>
             <div className="button">
