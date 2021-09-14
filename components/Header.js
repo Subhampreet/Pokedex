@@ -17,7 +17,7 @@ function Header() {
                 <div className="nav-item">Feedback</div>
             </div>
             <div className="button">
-                CATCH TH'M ALL
+                CATCH TH&apos;M ALL
             </div>
         </div>
     )
