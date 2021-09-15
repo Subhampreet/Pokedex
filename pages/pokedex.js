@@ -1,32 +1,41 @@
 import React from 'react';
 import Link from 'next/link';
+import Header from '../components/Header';
+import PokeCard from '../components/pokedex/PokeCard';
+
 
 function pokedex({pokemon}) {
     console.log({pokemon});
 
     return (
-        <div>
-           <h1>Welcome to Pokedex</h1> 
+        <div className="pokedex">
 
-           <ul>
-                {pokemon.map((item, index) => (
-                    <li key={index}>
-                        <Link href={`/pokemon/${index + 1}`}>
-                            <a className="border p-4 border-grey my-2 hover:shadow-md capitalize flex items-center text-lg bg-gray-200 rounded-md">
-                                <img
-                                    src={item.image}
-                                    alt={item.name}
-                                    className="w-20 h-20 mr-3"
-                                />
-                                <span className="mr-2 font-bold">
-                                    {index + 1}.
-                                </span>
-                                {item.name}
-                            </a>
-                        </Link>
-                    </li>
-                ))}
-            </ul>
+            <Header />
+
+            <div className="body">
+                <div className="poke-items">
+                    {pokemon.map((item, index) => (
+                        <li key={index}>
+                            <Link href={`/pokemon/${index + 1}`}>
+                                <a >
+                                    {/* <img
+                                        src={item.image}
+                                        alt={item.name}
+                                    />
+                                    <span>
+                                        {index + 1}.
+                                    </span>
+                                    {item.name} */}
+                                    <PokeCard name={item.name} image={item.image} index={index + 1}  />
+                                    <br />
+                                </a>
+                            </Link>                            
+                        </li>
+                    ))}
+                </div>
+            </div>
+
+           
         </div>
     )
 }
