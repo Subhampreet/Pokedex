@@ -47,6 +47,10 @@
     margin-left: 70px;
 }
 
+.header .logo:hover{
+    cursor: pointer;
+}
+
 .header .logo .main{
     font-weight: 600;
     font-size: 30px;

@@ -1,8 +1,10 @@
 import Link from 'next/link';
+import Header from "../../components/Header";
 
 const Pokemon = ({ pokemon }) => {
     return (
         <>
+            <Header />
             <h1 className="text-4xl mb-2 text-center capitalize">
                 {pokemon.id}. {pokemon.name}
             </h1>
