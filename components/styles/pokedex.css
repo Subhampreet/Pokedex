@@ -27,7 +27,7 @@
     font-weight: 700;
     color: rgb(213, 218, 236);
     font-size: 60px;
-    z-index: -2;
+    z-index: -1;
     left: 9.6rem;
     top: 0rem;
 }
@@ -48,4 +48,93 @@
 
 .pokedex-card .container .info p{
     font-size: 14px;
+}
+
+
+/* ----------------Search --------------------- */
+
+.Search .body{
+    width: 95%;
+    margin: auto;
+    padding: 70px 0px;
+}
+
+
+.Search .body .poke-items{
+    /* columns: 3; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.Search .body .poke-items .pokecard{
+    margin-bottom: 10px;
+}
+
+.search-body .search-content{
+    width: 100%;
+}
+
+.search-body .search-content h3{
+    text-align: center;
+    color: rgba(77, 13, 196, 0.933);
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.search-body .search-content h1{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: rgba(34, 32, 31, 0.933);
+}
+
+.search-body .search-content p{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    letter-spacing: 0.03rem;
+    color: rgb(83, 81, 81);
+}
+
+
+.search-body{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.search-body .container{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.search-body .container input{
+    color: inherit;
+    padding: 12px 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: none;
+    outline: none;
+    width: 80%;
+    box-shadow: 0 10px 15px rgb(206, 212, 208);
+}
+
+.search-body .container .search-icon{
+    background-color: rgb(75, 12, 190);
+    box-shadow: 0 10px 15px rgb(206, 212, 208);
+    width: 15%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.search-body .container .search-icon p{
+    margin: auto;
+    color: #eee;
 }
