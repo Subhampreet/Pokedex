@@ -40,6 +40,7 @@
     align-items: center;
     justify-content: space-between;
     z-index: 100;
+    box-shadow: 0 3px 5px rgba(16, 5, 37, 0.616);
 }
 
 .header .logo {

@@ -53,11 +53,26 @@ background: linear-gradient(90deg, rgba(25,25,31,1) 9%, rgba(25,34,93,1) 64%, rg
     width: 90%;
 }
 
+.banner-body .left-body .buttons{
+    display: flex;
+    align-items: center;
+}
+
 .banner-body .left-body .button{
     width: 170px;
     font-size: 17px;
     background-color: rgb(77, 22, 228);
     color: #eee;
+    margin-right: 40px;
+}
+
+.banner-body .left-body .button-2{
+    width: 170px;
+    font-size: 17px;
+    border: 2px solid #eee;
+    background: transparent;
+    color: #eee;
+    text-align: center;
 }
 
 
@@ -77,3 +92,55 @@ background: linear-gradient(90deg, rgba(25,25,31,1) 9%, rgba(25,34,93,1) 64%, rg
     50%  { transform: translateY(-20px); }
     100% { transform: translateY(0); }
 }
+
+
+/* --------------STATS---------------- */
+
+.stats{
+    width: 100%;
+    background-color: rgb(37, 31, 31);
+    margin-top: -25px;
+    color: #eee;
+    padding: 40px 100px;
+}
+
+.stats .body{
+    width: 87%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stats .body .left h1{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    margin-bottom: 0px;
+}
+
+.stats .body .left h1 span{
+    font-weight: 500;
+}
+
+.stats .body .right{
+    display: flex;
+    width: 47%;
+    justify-content: space-between;
+}
+
+.stats .body .right h3{
+    font-size: 30px;
+    letter-spacing: 0.06rem;
+    margin-bottom: 0px;
+}
+
+.stats .body .right p{
+    margin-top: 15px;
+    font-size: 17px;
+    letter-spacing: 0.05rem;
+    color: #efeef7;
+    margin-bottom: 0px;
+}
+
+

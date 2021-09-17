@@ -1,16 +1,24 @@
 <h1 align="center">⚡ Pokedex </h1>
 
 
-<b>Pokedex</b> is a small demo application based on modern Android application tech-stacks and MVVM architecture. This project is for focusing especially on the new library Hilt of implementing dependency injection. Also fetching data from the network and integrating persisted data in the database via repository pattern.
+<b>Pokedex</b> is a small demo application based on Next.js. The pokemons will be fetched from the [Pokemon API](https://pokeapi.co/) using the SWR library. The project introduces you to data fetching on the client-side with the SWR library, Dynamic Routing, and many more advanced Next JS Concepts.
+
+<p align="center">
+  <img src="https://www.adcolony.com/wp-content/uploads/2016/07/Pokemon_go_banner.png" align="center">
+</p>
+
+#### 🍀 Motivation
+
+Since I was a little boy 🙋‍♂️, I've been passionate about Pokémon 🦔. It was always fun playing the games on the Game Boy and conquering all the Leagues. Now as a developer, I want to play around with the [Pokémon API](https://pokeapi.co/).
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<p align="center">
-  <img src="https://uhdwallpapers.org/uploads/cache/821469505/pokemon-detective-pikachu_600x338-mm-90.jpg" align="center">
-</p>
+### ✔ Features
+- Explore pokemons
+- Search pokemons by name
+- See the abilities and damage level of pokemons in the details page
 
-
-## Getting Started
+### 🏃‍♂️ Getting Started
 
 First, run the development server:
 
@@ -28,7 +36,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+### 🏫 Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -37,8 +45,12 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### 🎉 Issues
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Feel free to file a new issue with a respective title and description on the Pokedex NextJS repository. If you already found a solution to your problem, I would love to review your pull request! Have a look at our contribution guidelines to find out about the coding standards.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### ⚡ Contribution
+
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+
+Please note we have a code of conduct, please follow it in all your interactions with the project.
