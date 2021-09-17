@@ -5,7 +5,7 @@ function About() {
         <div className="about">
             <div className="body">
                 <div className="left">
-                    <h2>About Us</h2>
+                    <h2>ABOUT US</h2>
                     <h1>The official source for Pokémon news and information on the Pokémon</h1>
                     <p>
                     The original <span>Pokémon</span>  is a role-playing game based around building a small team of monsters to battle other monsters in a quest to become the best. <span>Pokémon</span> are divided into types, such as water and fire, each with different strengths. ... With experience, Pokémon grow stronger, gaining new abilities.
