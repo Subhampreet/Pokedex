@@ -4,13 +4,13 @@ import Header from "../components/Header";
 import PokeCard from "../components/pokedex/PokeCard";
 // import SearchPoke from '../components/pokedex/SearchPoke';
 
-import { useState } from "react";
+// import { useState } from "react";
 import { data } from "../utils/allPoke";
 
 function pokedex() {
   // console.log({pokemon});
 
-  const [pokemons, setPokemons] = useState(data);
+  const [pokemons, setPokemons] = React.useState(data);
 
   const search = (term) =>
     setPokemons(
