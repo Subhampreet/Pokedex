@@ -112,21 +112,21 @@
 
 
 /* -----------------------------POKEDEX PAGE----------------------- */
-.pokedex .body{
+.Search .body{
     width: 95%;
     margin: auto;
     padding: 70px 0px;
 }
 
 
-.pokedex .body .poke-items{
+.Search .body .poke-items{
     /* columns: 3; */
     display: flex;
     flex-wrap: wrap;
 }
 
 
-.pokedex .body .poke-items .pokecard{
+.Search .body .poke-items .pokecard{
     margin-bottom: 10px;
 }
 

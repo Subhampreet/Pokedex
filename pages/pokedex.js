@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Header from "../components/Header";
 import PokeCard from "../components/pokedex/PokeCard";
-// import SearchPoke from '../components/pokedex/SearchPoke';
+import SearchPoke from '../components/pokedex/SearchPoke';
 
 // import { useState } from "react";
 import { data } from "../utils/allPoke";
@@ -10,20 +10,20 @@ import { data } from "../utils/allPoke";
 function pokedex() {
   // console.log({pokemon});
 
-  const [pokemons, setPokemons] = React.useState(data);
+  // const [pokemons, setPokemons] = React.useState(data);
 
-  const search = (term) =>
-    setPokemons(
-      data.filter((d) => d.name.toLowerCase().includes(term.toLowerCase()))
-    );
+  // const search = (term) =>
+  //   setPokemons(
+  //     data.filter((d) => d.name.toLowerCase().includes(term.toLowerCase()))
+  //   );
 
   return (
     <div className="pokedex">
       <Header />
 
-      {/* <SearchPoke /> */}
+      <SearchPoke />
 
-      <div>
+      {/* <div>
         <div>
           <input
             type="text"
@@ -44,7 +44,7 @@ function pokedex() {
             </svg>
           </div>
         </div>
-      </div>
+      </div> */}
 
         <div className="body">
                 <div className="poke-items">
@@ -63,7 +63,7 @@ function pokedex() {
                     </li>
                 ))} */}
 
-                {pokemons.length === 0 ? (
+                {/* {pokemons.length === 0 ? (
                     <h3 className="text-gray-800 gn">Not found</h3>
                 ) : (
                     pokemons.map((pokemon) => {
@@ -83,7 +83,7 @@ function pokedex() {
                         </Link>
                     );
                     })
-                )}
+                )} */}
                 </div>
         </div>
     </div>
