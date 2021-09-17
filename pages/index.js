@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css';
 import Header from '../components/Header';
 import Banner from '../components/index/Banner';
 import Stats from '../components/index/Stats';
+import About from '../components/index/About';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Header />
       <Banner />
       <Stats />
+      <About />
     </div>
   )
 }

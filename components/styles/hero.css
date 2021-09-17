@@ -105,7 +105,7 @@ background: linear-gradient(90deg, rgba(25,25,31,1) 9%, rgba(25,34,93,1) 64%, rg
 }
 
 .stats .body{
-    width: 87%;
+    width: 80%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@ background: linear-gradient(90deg, rgba(25,25,31,1) 9%, rgba(25,34,93,1) 64%, rg
 
 .stats .body .right{
     display: flex;
-    width: 47%;
+    width: 49%;
     justify-content: space-between;
 }
 
@@ -144,3 +144,52 @@ background: linear-gradient(90deg, rgba(25,25,31,1) 9%, rgba(25,34,93,1) 64%, rg
 }
 
 
+/* --------------About------------ */
+
+.about{
+    width: 100%;
+    background-color: rgb(238, 235, 235);
+    color: rgb(41, 38, 38);
+    padding: 50px 100px;
+}
+
+.about .body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about .body .left{
+    width: 48%;
+}
+
+.about .body .left h2{
+    margin: 0px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: rgb(63, 62, 62);
+}
+
+.about .body .left h1{
+    margin-top: 5px;
+}
+
+.about .body .left p{
+    font-size: 17px;
+    letter-spacing: 0.05rem;
+}
+
+.about .body .left p span{
+    color: #111;
+    font-weight: 700;
+}
+
+.about .body .right{
+    width: 45%;
+}
+
+.about .body .right img{
+    width: 100%;
+}
