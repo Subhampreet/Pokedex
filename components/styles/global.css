@@ -120,7 +120,9 @@
 
 
 .pokedex .body .poke-items{
-    columns: 3;
+    /* columns: 3; */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 

@@ -1,7 +1,7 @@
 /* -----------------------PokeDex Page--------------- */
 
 .pokedex-card{
-    width: 450px;
+    width: 430px;
     height: auto;
     padding: 0.7rem 1rem;
     position: relative;
@@ -12,7 +12,7 @@
 }
 
 .pokedex-card:hover{
-    transform: translatex(5px);
+    transform: translateX(5px);
 }
 
 .pokedex-card .container{
