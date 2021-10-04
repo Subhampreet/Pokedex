@@ -4,7 +4,7 @@
 <b>Pokedex</b> is a small demo application based on Next.js. The pokemons will be fetched from the [Pokemon API](https://pokeapi.co/) using the SWR library. The project introduces you to data fetching on the client-side with the SWR library, Dynamic Routing, and many more advanced Next JS Concepts.
 
 <p align="center">
-  <img src="https://www.adcolony.com/wp-content/uploads/2016/07/Pokemon_go_banner.png" align="center">
+  <img src="https://user-images.githubusercontent.com/61475220/135866344-ec3fa693-85fd-4190-8159-721c6cf0f231.png" align="center">
 </p>
 
 #### 🍀 Motivation
