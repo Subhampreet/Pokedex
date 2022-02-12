@@ -3,6 +3,8 @@
 
 <b>Pokedex</b> is a small demo application based on Next.js. The pokemons will be fetched from the [Pokemon API](https://pokeapi.co/) using the SWR library. The project introduces you to data fetching on the client-side with the SWR library, Dynamic Routing, and many more advanced Next JS Concepts.
 
+Check the platform [LIVE](pokedex-pokemon.vercel.app/)
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/61475220/135866344-ec3fa693-85fd-4190-8159-721c6cf0f231.png" align="center">
 </p>
