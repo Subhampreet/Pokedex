@@ -1,4 +1,4 @@
-<h1 align="center">🦔⚡ Pokedex </h1>
+<h1 align="center">Pokedex 🦔⚡</h1>
 
 
 <b>Pokedex</b> is a small demo application based on Next.js. The pokemons will be fetched from the [Pokemon API](https://pokeapi.co/) using the SWR library. The project introduces you to data fetching on the client-side with the SWR library, Dynamic Routing, and many more advanced Next JS Concepts.
